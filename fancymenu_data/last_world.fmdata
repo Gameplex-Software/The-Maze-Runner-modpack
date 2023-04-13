@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/redst/curseforge/minecraft/Instances/The Maze Runner/saves/Maze_Runner
+}
+

@@ -1,0 +1,71 @@
+type = menu
+
+customization-meta {
+  identifier = play
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = -50
+  width = 100
+  action = addbutton
+  actionid = 5a1c7716-17fb-4490-9e85-f8ade6c0dce61681357863879
+  y = -10
+  label = New Button
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = loadworld;Maze_Runner%btnaction_splitter_fm%
+  backgroundhovered = resources/covers/f6e3fbb3d2b1aede98ace065c8079ad6.jpg
+  label = Maze Runner
+  loopbackgroundanimations = true
+  x = -178
+  width = 115
+  action = addbutton
+  actionid = 47bc52b9-b1fb-4cd9-b8c8-70c7cb53ab031681357876100
+  y = -85
+  backgroundnormal = resources/covers/f6e3fbb3d2b1aede98ace065c8079ad6.jpg
+  height = 171
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = 64
+  width = 100
+  action = addbutton
+  actionid = beaa0f9a-51bb-41b1-a106-4cd559727ff21681357885137
+  y = -10
+  label = New Button
+  height = 20
+}
+
+customization {
+  orientation = bottom-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui%btnaction_splitter_fm%
+  x = -97
+  width = 195
+  action = addbutton
+  actionid = 9bc63572-6519-4987-abe7-59443000192a1681358248503
+  y = -25
+  label = Back
+  height = 20
+}
+
